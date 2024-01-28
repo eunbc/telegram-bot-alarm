@@ -1,7 +1,7 @@
 # 텔레그램 알람봇
 
 1. 텔레그램에서 BotFather으로 채널 생성
-2. java.TelegramBot.java 파일에 토큰, ID 정보 입력 (유출되지 않도록 유의)
+2. TelegramBot.java 파일에 토큰, ID 정보 입력 (유출되지 않도록 유의)
 3. 실행하고자 하는 서버로 파일 전송
 ```
 scp -i example.pem -r /home/main ec2-user@0.0.0.0:/home/ec2-user
